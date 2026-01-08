@@ -1,0 +1,45 @@
+/* Navigation */
+.navbar {
+  background-color: white;  
+}
+
+/* Centers content and controls horizontal layout */
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Navigation links */
+.nav-menu {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-menu a {
+    text-decoration: none   ;
+}
+
+
+/* Primary action button */
+.nav-action button {
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.primary-btn {
+  background-color: #4CAF6A;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+}
