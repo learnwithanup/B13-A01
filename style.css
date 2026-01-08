@@ -232,3 +232,75 @@
   font-size: 12px;
   top: 2px;
 }
+
+
+/* ===== Footer ===== */
+
+.footer {
+  background: linear-gradient(180deg, #061b2e 0%, #041726 100%);
+  padding: 32px 24px 16px;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  color: #ffffff;
+  background: transparent;
+}
+
+/* Top row */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.footer-logo img {
+   height: 120px;
+}
+
+Social links
+.footer-social {
+  text-align: right;
+}
+
+.footer-social span {
+  display: block;
+  font-size: 12px;
+  color: #9fb3c8;
+  margin-bottom: 8px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.social-icons a {
+  width: 26px;
+  height: 26px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+/* Divider */
+.footer-divider {
+   margin: 24px 0 12px;
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Copyright */
+.footer-copy {
+  text-align: center;
+  font-size: 13px;
+  color: #9fb3c8;
+}
