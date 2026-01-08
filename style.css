@@ -43,3 +43,43 @@
   cursor: pointer;
   line-height: 1;
 }
+
+
+/* ===== Banner Section ===== */
+
+.banner {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./Sections/Banner.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Dark overlay */
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.banner-inner {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 120px 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Badge */
+.banner-badge {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 6px 12px;
+  font-size: 12px;
+  background-color: #ffffff;
+  color: #2e7d32;
+  border-radius: 999px;
+}
